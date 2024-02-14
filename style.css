@@ -1,0 +1,646 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.first-nav{
+    width: 100vw;
+    height: 50px;
+    background-color: black ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: fixed;
+    top: -10px;
+}
+.first-nav div ul {
+    margin-top: 15px;
+}
+.first-nav div ul li   {
+    display: inline-block;
+}
+.first-nav div ul li a{
+    margin: 0px 4px;
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+}
+.first-nav div ul li a:hover{
+    color: white;
+}
+.second-nav{
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    display: none;
+    position: fixed;
+    top: -10px ;
+}
+.second-nav a{
+    color:rgb(206, 206, 206);
+}
+.second-nav .list{
+    margin-left:auto;
+
+}
+.second-nav .list a{
+    margin-right:10px;
+}
+@media screen and (max-width:834px) {
+    .first-nav{
+        display: none;
+    }
+    .second-nav{
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: -10px;
+    }
+    .second-nav div{
+        margin-top: 20px;
+        padding-left: 15px;
+    }
+}
+.iphone{
+    width: 100vw;
+    height: 580px;
+    background-color: white;
+    background-image: url(./assets/iphone.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position: center;
+    margin-top: -15px;
+}
+
+.iphone .logo{
+    font-size: 3em;
+}
+
+.iphone p{
+    justify-content: end;
+    text-align: center;
+    margin-top: -25px;
+}
+.iphone div li{
+    text-align: center;
+    list-style: none;
+}
+.iphone div li a{
+    color: skyblue;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+.iphone div li a:hover{
+    text-decoration: underline;
+}
+.iphone a{
+    color: white;
+    text-decoration: none;
+
+    
+}
+@media screen and (max-width:734px) {
+    .iphone{
+        background-image: url(./assets/iphone3.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
+@media screen and (max-width:426px) {
+    .iphone .logo{
+        font-size: 2em;
+    }
+    .iphone .p{
+        font-size: 0.8em;
+    }
+    .iphine li a{
+        font-size: 0.8em;
+    }
+}
+.vision{
+    width: 100vw;
+    height: 500px;
+    background-color: rgb(243, 242, 242);
+    background-image: url(./assets/vision.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+
+.vision .logo{
+    font-size: 2.5em;
+}
+.vision p{
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+}
+.vision div{
+    display: flex;
+    justify-content: center;
+}
+.vision a{
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.vision li{
+    list-style: none;
+}
+.vision li a{
+    color: skyblue;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+.vision li a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width:768px) {
+    .vision{
+        margin-top: -15px;
+    }
+    
+}
+@media screen and (max-width:426px) {
+    .vision{
+        background-size: cover;
+    }
+    .vision .logo{
+        font-size: 2em;
+    }
+    .vision .p{
+        font-size: 1em;
+        justify-content: center ;
+    }
+    .vision li a{
+        font-size: 1em;
+    }
+}
+.valentine-day{
+    width: 100vw;
+    height: 400px;
+    background-image: url(./assets/IMG-20240213-WA0113.jpg);
+    background-size:800px 412px  ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:426px) {
+    .valentine-day .logo{
+        font-size: 1em;
+    }
+    .valentine-day p{
+        font-weight: normal;
+    }
+}
+.valentine-day .logo{
+    font-size: 2.5em;
+}
+.valentine-day p{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    
+}
+.valentine-day p a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.valentine-day div{
+    display: flex;
+    justify-content: center;
+}
+.valentine-day div li{
+    list-style: none;
+}
+.valentine-day div li a{
+    color: skyblue;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.valentine-day div li a:hover{
+    text-decoration: underline;
+}
+.watch{
+    width: 100vw;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.iphone15{
+    width: 50%;
+    height: 100%;
+    justify-content: center; 
+    background-image: url(./assets/iphone2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    background-position: right ;
+}
+@media screen and (max-width:768px) {
+    .iphone15{
+        background-size: contain;
+        background-color: white;
+        background-position: center;
+    }
+}
+@media screen and (max-width:426px) {
+    .watch{
+        height: 800px;
+    }
+    .iphone15{
+        width: 100%;
+        height: 50%;
+    }
+}
+.iphone15 p{
+    display: flex;
+    justify-content: center;
+}
+.iphone15 p a{
+    text-decoration: none;
+    color: black;
+}
+.iphone15 div li{
+    display: flex;
+    justify-content: center;
+}
+.iphone15 div li a{
+    margin-left: 20px;
+    color: skyblue;
+    text-decoration: none;
+}
+.iphone15 div li a:hover{
+    text-decoration: underline;
+}
+.watch-series{
+    width: 50%;
+    height: 100%;
+    background-image: url(./assets/watch.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+@media screen and (max-width:768px){
+    .watch-series{
+        background-size: contain;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+@media screen and (max-width:426px) {
+    .watch-series{
+        width: 100%;
+        height: 50%;
+        margin-top: 10px;
+        background-color: black;
+    }
+}
+.watch-series p{
+    display: flex;
+    justify-content: center;
+}
+.watch-series p a{
+    text-decoration: none;
+}
+.watch-series div li{
+    display: flex;
+    justify-content: center;
+}
+.watch-series div li a{
+    color: skyblue;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.watch-series div li a:hover{
+    text-decoration: underline;
+}
+.macbook{
+    width: 100vw;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.macbook-pro{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    justify-content: center;
+    background-image : url(./assets/macbook.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+@media screen and (max-width:426px) {
+    .macbook{
+        height: 800px;
+    }
+    .macbook-pro{
+        margin-top: 10px;
+        width: 100%;
+        height: 50%;
+    }
+}
+.macbook-pro p{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+.macbook-pro p a{
+    text-decoration: none;
+    color: black;
+}
+.macbook-pro div li{
+    display: flex;
+    justify-content: center;
+}
+.macbook-pro div li a{
+    margin-left: 20px;
+    color: skyblue;
+    text-decoration: none;
+}
+.macbook-pro div li a:hover{
+    text-decoration: underline;
+}
+.ipad{
+    width: 50%;
+    height: 100%;
+    background:white;
+    background-image: url(./assets/ipad.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+@media screen and (max-width:426px) {
+    .ipad{
+        width: 100%;
+        height: 50%;
+        margin-top: 10px;
+    }
+}
+.ipad p{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+.ipad p a{
+    text-decoration: none;
+    color: black;
+}
+.ipad div li{
+    display: flex;
+    justify-content: center;
+}
+.ipad div li a{
+    color: skyblue;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.ipad div li a:hover{
+    text-decoration: underline;
+}
+.card-container{
+    width: 100vw;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.apple-card{
+    width: 50%;
+    background-color: white;
+    justify-content: center;
+    background-image: url(./assets/card.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: bottom;
+
+}
+@media screen and (max-width:426px) {
+    .card-container{
+        height: 800px;
+    }
+    .apple-card{
+        width: 100%;
+        height: 50%;
+        margin-top: 10px;
+    }
+}
+.apple-card p{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+.apple-card p a{
+    text-decoration: none;
+    color: black;
+}
+.apple-card div li{
+    display: flex;
+    justify-content: center;
+}
+.apple-card div li a{
+    margin-left: 20px;
+    color: skyblue;
+    text-decoration: none;
+}
+.apple-card div li a:hover{
+    text-decoration: underline;
+}
+.trade{
+    width: 50%;
+    height: 100%;
+    background:white;
+    background-image: url(./assets/iphone\ with\ box.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+@media screen and (max-width:768px) {
+    .trade{
+        background-position: bottom;
+
+    }
+}
+@media screen and (max-width:426px) {
+    .trade{
+        width: 100%;
+        height: 50%;
+        margin-top: 10px;
+    }
+}
+.trade p{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+.trade p a{
+    text-decoration: none;
+    color: black;
+}
+.trade div li{
+    display: flex;
+    justify-content: center;
+}
+.trade div li a{
+    color: skyblue;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.trade div li a:hover{
+    text-decoration: underline;
+}   
+.slider{
+    height: 1000px ;
+    width: 10vw;
+}
+footer{
+    width: 100vw;
+    height: 930px;
+    background-color: rgb(244, 243, 243);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -95px;
+}
+footer .center{
+    width: 1000px;
+    height: 100%;
+
+    
+}
+footer .center .text{
+    width: 100%;
+    height: 330px;
+}
+footer .center .text p{
+    font-size: 0.7em;
+    padding-left: 10px;
+    color: grey;
+}
+footer .center .text p a{
+    color: grey;
+}
+footer .center #listone .list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 450px;
+    padding-top: 15px;
+}
+footer .center #listone .list div span{
+    font-size: 0.9em;
+    font-weight: bolder;
+    padding-left: 5px;
+}
+footer .center #listone .list div li{
+    list-style: none;
+    padding-left: 5px;
+}
+footer .center #listone .list div li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 0.8em;
+}
+footer .center #listone .list div li a:hover{
+    text-decoration: underline;
+}
+footer .center #listone p{
+    font-size: 0.8em;
+    color: grey;
+}
+footer .center #listone .end{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+footer .center #listone .end p{
+    color: grey;
+}
+footer .center #listone .end p a{
+    color: grey;
+    text-decoration: none;
+}
+footer .center #listone .end p a:hover{
+    text-decoration: underline;
+}
+footer .center #listtwo{
+    height: 520px;
+    width: 100%;
+    margin-top: 40px;
+}
+footer .center #listtwo div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+footer .center #listtwo div span{
+    font-size: 0.90em;
+} 
+footer .center #listtwo p{
+    font-size: 0.88em;
+    padding-left: 20px;
+    color: grey;
+}
+footer .center #listtwo p a{
+    color: skyblue;
+}
+footer .center #listtwo span{
+    font-size: 0.9em;
+    padding-left: 20px;
+}
+footer .center #listtwo .c{
+    color: grey;
+}
+footer .center #listtwo span a{
+    color: black;
+    text-decoration: none;
+}
+@media screen and (max-width:768px) {
+    #listone{
+        display: none;
+    }
+    #listtwo{
+    }
+    footer{
+        margin-top: -580px;
+        height: 1050px;
+    }
+    
+}
+@media screen and (max-width:425px) {
+    #listone{
+        display: none;
+    }
+    #listtwo{
+        margin-top: 500px;
+    }
+    footer{
+        height: 1300px;
+    }
+    
+}
+@media screen and (min-width:769px) {
+    #listtwo{
+        display: none;
+    }
+    
+}
